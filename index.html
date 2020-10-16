@@ -6,7 +6,7 @@
     <title>DELANI STUDIO</title>
     <link rel="stylesheet" type="text/css"  href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="rossorigin="anonymous"></script>
 </head>
 <body>
     <div class="header">
@@ -15,7 +15,8 @@
     <h2>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</h2>
 </div>
     <div class="container">
-<h1>ABOUT US</h1>
+<h1 id="color">
+    ABOUT US</h1>
 <p>When you work with us, you are a part of a team of committed collaborators. All aspects of our software development process are integrated, interactive and agile
     Our approach unifies design, development and product management to create exceptional products.
     We start each project by understanding your business goals, the user's needs and the product requirements.
@@ -23,23 +24,66 @@
     </div>
     <div class="services">
 <h1>SERVICES</h1>
-<p>Before we sign or write a line of code our team will spend the necessary time needed to understand your product vision.
+<p id="p1">
+    Before we sign or write a line of code our team will spend the necessary time needed to understand your product vision.
     The outcome of this scoping session is a proposal or high level statement of work.
     Based on your requirements, we can provide a complete offering or just the pieces you need.</p>
     </div>
     <div class="contain">
-<h1>WHAT WE DO</h1>
-
-    </div>
+<h1 id="p">
+    WHAT WE DO</h1>
+    <div class="row">
+        <div class="column"  id="design">
+          <img src="./design_icon.png">
+          <h3>Design</h3>
+          <p>Our design practice offers a full range of services including brand strategy,interaction and visual design and user experience testing.Throughout your project, our designers create and implement visual design and workflows, solicituser feedback and work with you to make sure what gets built is what is needed.</p>
+        </div>
+        <div class="column"  id="development">
+          <img src="./dev_icon.png">
+          <h3>Development</h3>
+          <p>All engineers are fluent in the latest enterprise, mobile and web developmenttechnologies.They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+        </div>
+        <div class="column"  id="productmanagement">
+          <img src="./product_icon.png">
+          <h3>Product management</h3>
+          <p>planning and development is iterative. Because we are constantly coding and testing,the products  we build are always ready to go live.This iterative process allows for changes as business requirements evolve.</p>
+        </div>
+      </div>
     <div class="portfolio">
+<h1 id="p">
+    PORTFOLIO</h1>
+<div class="row1">
+<img src="./work4.jpg" alt="design kenya" width="200px" height="100px">
 
+<img src="./work3.jpg" alt="ontario security" width="200px" height="100px">
+
+<img src="./work2.jpg" alt="design" width="200px" height="100px">
+
+<img src="./work1.jpg" alt="website designs" width="200px" height="100px">
+
+<div class="row6">
+
+<img src="./work5.jpg" alt="customer care" width="200px" height="100px">
+
+<img src="./work6.jpg" alt="form input"  width="200px" height="100px">
+
+<img src="./work7.jpg" alt="burned mock-up" width="200px" height="100px">
+
+<img src="./work8.jpg" alt="giraffe resturant" width="200px" height="100px">
+</div>
+</div>
     </div>
-    <h1>CONTACT US</h1>
+    <h1 id="color">
+        CONTACT US</h1>
     <form>
 <label for="name">Name</label><br>
-<input type="text" id="name"><br>
+<input type="text" id="name" placeholder="your name"><br>
 <label for="email">Email</label><br>
-<input type="text" id="email"><br>
+<input type="text" id="email" placeholder="your email"><br>
+<label for="message">Add comments</label><br>
+<input type="text" id="message" placeholder="your message here..."><br>
+<input id="submit"
+ type="submit" value="Submit">
     </form>
     <div class="footer">
         <a href="#" class="fa fa-facebook"></a>
@@ -48,5 +92,7 @@
         <a href="#" class="fa fa-youtube"></a>
         <a href="#" class="fa fa-skype"></a>
     </div>
+    <script src="js/script.js"></script>
+    
 </body>
 </html>

@@ -1,23 +1,35 @@
 .header{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-image:url(images\ \(6\).jpeg) ;
-    background-size:contain;
+    background-size:cover;
+    text-align: center;
 }
 .container{
     background-color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-size: cover;
 }
 .services{
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 background-image: url(download\ \(1\).jpeg);
+text-align:center ;
+background-size: cover;
 }
 .contain{
     background-color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+text-align: center;
+}
+.portfolio {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+    text-align: center;
 }
 form{
     background-image: url(download\ \(2\).jpeg);
+text-align: center;
+background-size: cover;
 }
 .fa {
     padding: 30px;
@@ -31,20 +43,61 @@ form{
   .fa-facebook {
     background-color: blue;
     color: white;
+    border-radius: 30%;
   }
   .fa-twitter {
     background-color: blue;
     color: white;
+    border-radius: 30%;
   }
   .fa-instagram {
     background-color:hotpink;
     color: white;
+    border-radius: 30%;
   }
   .fa-youtube{
     background-color:red;
     color: white;
+    border-radius: 30%;
   }
   .fa-skype {
     background-color:skyblue;
     color: white;
+    border-radius: 30%;
+  }
+  h1 , h2 {
+      color: white;
+  }
+  #p{
+      color: black;
+  }
+  #p1{
+      color: white;
+  }
+  #submit{
+      background-color: blue;
+      padding: 10px;
+  }
+  .row {
+    display:flex }
+  
+  .column{
+   flex: 34%;
+    padding: 5px;
+  }
+  #color{
+    color: black;
+  }
+  #message{
+    padding: 10%;
+    background-color: transparent;
+  }
+  #name{
+    background-color: transparent;
+  }
+  #email{
+    background-color: transparent;
+  }
+  .hide{
+    display: none;
   }
